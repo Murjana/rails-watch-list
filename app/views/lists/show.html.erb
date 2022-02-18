@@ -3,7 +3,7 @@
   <%= @list.name %>
 </p>
 <ol>
-      <% Movie.all.each do |movie| %>
+      <% @list.movies.each do |movie| %>
       <li><%= movie.title %>, <%= movie.rating %></li>
       <% end %>
 </ol>
