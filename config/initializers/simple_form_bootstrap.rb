@@ -259,7 +259,6 @@ SimpleForm.setup do |config|
     end
   end
 
-
   # inline forms
   #
   # inline default_wrapper

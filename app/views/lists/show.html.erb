@@ -1,0 +1,11 @@
+<p>
+  <strong>Name:</strong>
+  <%= @list.name %>
+</p>
+<ol>
+      <% Movie.all.each do |movie| %>
+      <li><%= movie.title %>, <%= movie.rating %></li>
+      <% end %>
+</ol>
+
+<%= link_to 'Back', lists_path %>
